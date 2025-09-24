@@ -153,6 +153,37 @@ letter-spacing: 0.1rem;
 font-weight: 600;
 transition: 0;
 }
+.shaka:hover{
+box-shadow: 0 0 1.6rem var(--bg-color);
+ } 
+ .about1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  background: var(--bg-color);
+ }
+.about1-img img{
+width:25vw ;
+border: 2px solid var(--main-color);
+border-radius: 50%;
+box-shadow: 0 0 25px var(--main-color);
+cursor: pointer;
+transition: 0.4s ease;
+ }
+.about1-img img:hover{
+box-shadow: 0 0 25px var(--main-color) ,
+0 0 34px var(--main-color),
+0 0 45px var(--main-color);
+}
+.heading {
+font-size: 6rem;
+text-align: center;
+}
+.about1-content {
+padding: 0 4rem;
+
+}
 
 
   
