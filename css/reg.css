@@ -1,4 +1,5 @@
 *{
+    border-radius: 20px;
     margin: 0;
     margin-left: 0;
    box-sizing: border-box; 
@@ -8,14 +9,17 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #D1C6AD;
+    background: #57564F;
 
 }
 
 .wrapper{
+    border-radius: 20px 60px;
+    height: 500px;
 width: 420px;
-background: #A1869E;
-color: #050505;
+background: #DDDAD0;
+color: #57564F;
+color: rgb(1, 73, 107);
 }
 .wrapper h1 {
 font-size: 36px;
@@ -53,7 +57,7 @@ font-size: 20px;
 display: flex;
 justify-items: center;
 font-size: 8px;
-margin: ;
+margin:0 ;
 
 }
 .remember-forgot label input {
@@ -61,11 +65,12 @@ margin: ;
 accent-color:#fff ;
 margin: 3px;
 }
-.remember-forgot a {
 
-}
 .wrapper .btn{
+    background-color: #F8F3CE;
+    height: 40px;
 width: 420px;
 border-radius: 40px;
 font-size: 20px;
 }
+.contact1

@@ -9,10 +9,10 @@ scroll-behavior: smooth;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 :root{
---bg-color: #f1d3d3; 
---snd-bg-color:#1c4b45;
---text-color:#257453;
---main-color:#7c8620;
+--bg-color: #b4b45b; 
+--snd-bg-color:#8f8f5a;
+--text-color:#327729;
+--main-color:#000000;
 }
 html{
 font-size: 62.5%;
@@ -29,7 +29,7 @@ section{
 }
 .header{
     position: fixed;
-width: 100%;
+width: 105%;
 top: 0;
 right: 0;
 z-index: 1000;
@@ -182,8 +182,127 @@ text-align: center;
 }
 .about1-content {
 padding: 0 4rem;
-
+}
+.contan{
+  border-color: #327729;
+  border: 200px;
+  color: #000000;
+  width: 100%;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.contan .row{
+width: 80%;
+margin: auto;
+}
+.contan .row .headerr{
+width: 60%;
+align-items: center;
+margin: auto;
+}
+.lopa{
+height: 300px;
+width: 400px;
+}
+.card{
+  width: 500px;
+border: 1px solid #000000;
+padding: 20px;
+margin: 20px;
+text-align: center;
+cursor: pointer;
 }
 
+#simba{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding-top: 40px;
+font-size: 40px;
+color: var(--main-color);
+margin-right: 20%;
+
+}
+#limba{
+font-size: 30px;
+margin-top: 15px;
+line-height: 1.5;
+}
+.contan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0;
+}
+.sera{
+width: 90%;
+margin: auto;
+}
+.seco{
+margin-top: 50px;
+font-size: 40px;
+text-align: center;
+}
+.sera-card{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.seras-card{
+width: 500px;
+border: 1px solid #0f0d0d;
+padding: 20px;
+margin: 20px;
+text-align: center;
+cursor: pointer;
+}
+.seras-card i {
+font-size: 40px;
+margin-bottom: 20px;
+}
+.serapp{
+  font-size: 30px;
+}
+.serap{
+  font-size: 20px;
+}
+
+.contact1{
+
+  background: #181616;
+  padding: 80px 0;
+
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sab{
+  color: rgb(184, 219, 219);
+  min-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+}
+.contact1 .shp{
+  border-color: aqua;
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing:4px ;
+  font-weight: 400;
+}
+.nameo, .emaill, .message{
+  align-items: center;
+border: none;
+  background:none;
+  color: #fcecec;
+  padding: 10px 6px;
+border-color: aqua;
+outline: none;
+border-bottom: 1px solid;
+color: #c99a9a;
+padding: 0px 200px;
+margin-bottom: 40px;
+}
 
   
