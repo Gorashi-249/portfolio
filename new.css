@@ -8,9 +8,9 @@
 }
 
 :root {
-  --main-color: #cfd4b6;
-  --bg-color: #aa9b9b;
-  --text-color: #222;
+  --main-color: #4B4E6D;
+  --bg-color: #84DCC6;
+  --text-color: #06070E;
   
   --radius: 0.7rem;
   --shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -26,7 +26,7 @@ body {
 .header {
   width: 100%;
   padding: 1rem 5%;
-  background: #ebf5ec;
+  background: #94A187;
   position: sticky;
   top: 0;
   left: 0;
@@ -41,11 +41,14 @@ body {
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: 700;
-  color:#071ff7
+  color:#09dfa6
   text-decoration  none;
 }
-
+ul{
+  color: #f3efef;
+}
 .navbar ul {
+  
   list-style: none;
   display: flex;
   gap: 1.5rem;
@@ -59,7 +62,7 @@ body {
 }
 
 .navbar a:hover {
-  color:#fdfdfd
+  color:#e7ece6
 }
 
 
@@ -70,10 +73,9 @@ body {
     align-items: center;
   }
   .home-img img{
-width: 25vw;
-border-radius: 50%;
-height: 400px;
-box-shadow: 0 0 25px var(--main-color);
+ max-width: 350px;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
 cursor: pointer;
 animation: floatIamge 4s ease-in-out infinite;
 transition: 0.4s ease;
@@ -107,7 +109,7 @@ margin-left: 5rem;
 margin-bottom: 2rem;
 }
 span{
-  color: #112f4e;
+  color: #0868c9;
 }
 
 .home-contact h1 {
@@ -119,23 +121,24 @@ span{
   font-size: 1rem;
 }
 .soical-media a{
+  text-decoration: none;
 display: inline-flex;
 justify-content: center;
 align-items: center;
 width: 42px;
 height: 42px;
 background: transparent;
-border: 0.2rem solid var(--main-color);
+border: 0.2rem solid rgb(60, 50, 204);
 border-radius: 50%;
 font-size: 2rem;
-color: var(--main-color);
+color: rgb(54, 38, 190);
 margin: 3rem 1.5rem 3rem 0;
 transition: 0.3s ease;
 }
 .soical-media a:hover{
   transform: scale(1.2) translateY(-10px);
 background-color: var(--snd-bg-color);
-color: var(--bg-color);
+color: green;
 box-shadow: 0 0 25px var(--main-color);
 }
 
@@ -169,7 +172,7 @@ box-shadow: 0 0 25px var(--main-color);
 
 .about1-img img {
   max-width: 350px;
-  border-radius: var(--radius);
+  border-radius: 200px 100px;
   box-shadow: var(--shadow);
 }
 

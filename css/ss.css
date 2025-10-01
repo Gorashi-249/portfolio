@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #57564F;
+    background: #84DCC6;
 
 }
 
@@ -16,7 +16,7 @@ body{
     border-radius:  30px  50px;
     height: 400px;
 width: 420px;
-background: #DDDAD0;
+background: #507DBC;
 color: #050505;
 }
 .wrapper h1 {
@@ -34,11 +34,11 @@ margin: 30px 0;
 height: 100%;
 outline: none;
 border: none;
-border: 2px #000000;
+border: 2px #19b114;
 border-radius: 50px;
-background-color:#BBADA0;
+background-color:#DAE3E5;
 font-size: 16px;
-color: #000;
+color: #050505;
 padding: 10px 30px 10px 10px;
 }
 .input-box input ::placeholder{
@@ -60,7 +60,7 @@ margin:0 ;
 }
 .remember-forgot label input {
 
-accent-color:#fff ;
+accent-color:#DAE3E5 ;
 margin: 3px;
 }
 .remember-forgot a {
@@ -71,7 +71,7 @@ align-items: center;
 justify-content: center;
 }
 .wrapper .btn{
-    background-color: #F8F3CE;
+    background-color: #DAE3E5;
     height: 40px;
 width: 420px;
 border-radius: 40px;
