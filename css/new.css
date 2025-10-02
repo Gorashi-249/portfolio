@@ -86,17 +86,7 @@ box-shadow: 0 0 25px var(--main-color) ,
 0 0 45px var(--main-color);
   }
   
-  @keyframes floatIamge {
-    0% {
-      transform: translateY(0);
-    }
-   50% {
-transform: translateY(-2.4rem);
-   } 
-100%{ 
-  transform: translateY(0);
-}
-  }
+  
   .home-contact{
 margin-left: 5rem;
   }
@@ -293,36 +283,7 @@ box-shadow: 0 0 25px var(--main-color);
   background: #1c5fa8;
 }
 
-@media (max-width: 768px) {
-  .navbar ul {
-    flex-direction: column;
-    background: white;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 200px;
-    padding: 1rem;
-    display: none; 
-  }
 
-  .navbar.active ul {
-    display: flex;
-  }
-
-  .home {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .about1 {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
-
-  .about1-img img {
-    max-width: 250px;
-  }
-}
 
 
 
