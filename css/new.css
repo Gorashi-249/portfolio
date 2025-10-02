@@ -110,27 +110,7 @@ span{
 .home-contact p {
   font-size: 1rem;
 }
-.soical-media a{
-  text-decoration: none;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-width: 42px;
-height: 42px;
-background: transparent;
-border: 0.2rem solid rgb(60, 50, 204);
-border-radius: 50%;
-font-size: 2rem;
-color: rgb(54, 38, 190);
-margin: 3rem 1.5rem 3rem 0;
-transition: 0.3s ease;
-}
-.soical-media a:hover{
-  transform: scale(1.2) translateY(-10px);
-background-color: var(--snd-bg-color);
-color: green;
-box-shadow: 0 0 25px var(--main-color);
-}
+
 
 .shaka {
   display: inline-block;
