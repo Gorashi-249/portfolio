@@ -310,7 +310,7 @@ transition: 0.3s ease;
 }
 .soical-media a:hover{
   transform: scale(1.2) translateY(-10px);
-background-color: var(--snd-bg-color);
+background-color: #b4b489;
 color: var(--bg-color);
 box-shadow: 0 0 25px var(--main-color);
 }
