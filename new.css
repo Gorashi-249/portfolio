@@ -263,6 +263,37 @@ span{
   background: #1c5fa8;
 }
 
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+    display: none; 
+  }
+
+  .navbar.active ul {
+    display: flex;
+  }
+
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about1 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .about1-img img {
+    max-width: 250px;
+  }
+}
+
 
 
 
